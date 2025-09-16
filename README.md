@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-A simple and intuitive management system for clothing inventory — built with C#, JavaScript & HTML. Designed to help store owners track stock, manage categories, record sales, and keep operations smooth.
+A simple and intuitive management system for clothing inventory — built with C# (ASP.NET MVC), JavaScript & HTML. Designed to help store owners track stock, manage categories, record sales, and keep operations smooth.
 
 ---
 
@@ -10,11 +10,7 @@ A simple and intuitive management system for clothing inventory — built with C
 
 - [Features](#features)  
 - [Tech Stack](#tech-stack)  
-- [Getting Started](#getting-started)  
-- [Usage](#usage)  
-- [Screenshots](#screenshots)  
-- [Contributing](#contributing)  
-- [License](#license)
+- [Getting Started](#getting-started)
 
 ---
 
@@ -33,9 +29,9 @@ A simple and intuitive management system for clothing inventory — built with C
 
 | Layer         | Technologies Used                          |
 |----------------|---------------------------------------------|
-| Backend / API | C# (.NET — Windows/.NET Core / whichever)   |
+| Backend / API | C# (.NET — Windows MVC)   |
 | Frontend       | HTML, JavaScript                            |
-| Data Storage   | (e.g. SQL Server, SQLite, or JSON files — specify) |
+| Data Storage   | (e.g. MS SQL Server) |
 | Build / Dev Tools | (e.g. Visual Studio, .NET CLI, npm or others)    |
 
 ---
@@ -54,3 +50,6 @@ A simple and intuitive management system for clothing inventory — built with C
    ```bash
    git clone https://github.com/ARASIF1-6/ClothesManagementSystem.git
    cd ClothesManagementSystem
+   dotnet restore
+   dotnet build
+   dotnet run
